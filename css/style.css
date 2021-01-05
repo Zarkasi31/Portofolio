@@ -285,9 +285,16 @@ footer{
         grid-template-rows: repeat(6,1fr);
     }
 
+    .photo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .website .photo-1{
         grid-column: 1/span 12;
         grid-row: 1;
+        
+        /* justify-content: center; */
     }
     
     .website .photo-2{
